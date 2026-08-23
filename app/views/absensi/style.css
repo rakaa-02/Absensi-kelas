@@ -1,0 +1,156 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+    background-color: #f1f5f9;
+    padding: 20px;
+    color: #1e293b;
+}
+
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.header-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #1e3a8a;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.btn-simpan {
+    background-color: #16a34a;
+    color: #ffffff;
+    border: none;
+    padding: 8px 18px;
+    font-size: 13px;
+    font-weight: 600;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.btn-simpan:hover {
+    background-color: #15803d;
+}
+
+.card-form {
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.form-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 12px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    font-size: 11px;
+    font-weight: 700;
+    margin-bottom: 4px;
+    color: #475569;
+    text-transform: uppercase;
+}
+
+.form-group select {
+    padding: 7px 10px;
+    border: 1px solid #cbd5e1;
+    border-radius: 5px;
+    font-size: 13px;
+    background-color: #ffffff;
+    color: #334155;
+}
+
+/* Table Styling */
+.table-wrapper {
+    overflow-x: auto;
+    max-width: 100%;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+}
+
+.table-absensi {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 11px;
+    white-space: nowrap;
+}
+
+
+.table-absensi thead th {
+    background-color: #1d4ed8; /* Biru */
+    color: #ffffff;            /* Tulisan Putih */
+    font-weight: bold;
+    text-align: center;
+    padding: 8px 2px;
+    border: 1px solid #1e40af;
+    position: sticky;
+    top: 0;
+    min-width: 32px;
+}
+
+.table-absensi .col-no {
+    width: 30px;
+    min-width: 30px;
+}
+
+.table-absensi .col-nama {
+    min-width: 160px;
+    text-align: left;
+    padding-left: 8px;
+}
+
+/* Isi Tabel */
+.table-absensi tbody td {
+    background-color: #ffffff; /* Background Putih */
+    border: 1px solid #e2e8f0;  /* Border Abu-abu Tipis */
+    padding: 2px 1px;
+    color: #000000;            /* Tulisan Hitam */
+    text-align: center;
+}
+
+.table-absensi tbody tr:hover {
+    background-color: #f1f5f9;
+}
+
+.text-center { text-align: center; }
+.text-left { text-align: left; padding-left: 8px !important; }
+.font-bold { font-weight: 600; }
+
+
+.select-absensi {
+    width: 100%;
+    max-width: 36px;
+    padding: 2px 0;
+    font-size: 11px;
+    font-weight: 600;
+    border: 1px solid #cbd5e1;
+    border-radius: 3px;
+    background-color: #ffffff;
+    cursor: pointer;
+    text-align: center;
+}
