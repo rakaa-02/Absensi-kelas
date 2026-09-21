@@ -86,3 +86,5 @@ class AbsensiModel {
         return $result;
     }
 }
+
+
